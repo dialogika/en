@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Form Registrasi Internship Dialogika</title>
+  <meta content="Internship Dialogika" name="description">
+  <meta content="Intenship" name="keywords">
+
+  <!-- Favicons -->
+    <link href="../assets/img/favicon.png" rel="icon">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- End Favicons -->
+
+  <!-- OG Meta Tags page on LinkedIn, Facebook, Google+ -->
+    <meta property="og:site_name" content="Dialogika" /> 
+    <meta property="og:site" content="http://dialogika.co" /> 
+    <meta property="og:title" content="Form Registrasi Internship Dialogika"/>
+    <meta property="og:description" content="Internship Dialogika" />
+    <meta property="og:image" content="../assets/img/vacancy/intern/hero-bg.jpg" /> 
+    <meta property="og:url" content="http://dialogika.co/register/intern.html" />
+    <meta property="og:type" content="article" />
+  <!-- End OG Meta Tags page on LinkedIn, Facebook, Google+ -->
+
+  <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- End Google Fonts -->
+
+  <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="../assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <!-- End Vendor CSS Files -->
+
+  <!-- Template Main CSS File -->
+    <link href="../assets/css/register/intern.css" rel="stylesheet">
+    <link href="../assets/css/template.css" rel="stylesheet">
+  <!-- End Template Main CSS File -->
+
+  <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2879951975556015'); 
+    fbq('track', 'PageView');
+    </script>
+    <noscript>
+     <img height="1" width="1" 
+    src="https://www.facebook.com/tr?id=2879951975556015&ev=PageView&noscript=1"/>
+    </noscript>
+  <!-- End Facebook Pixel Code -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148836422-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-148836422-2');
+    </script>
+  <!-- End Global site tag (gtag.js) - Google Analytics -->
+
+  <!-- Spreadsheet API -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>
+    <script>
+      function SubForm (){
+        $.ajax({
+          url:"https://api.apispreadsheets.com/data/17042/",
+          type:"post",
+          data:$("#daftar").serializeArray(),
+          success: function(){
+            alert("Data Sudah Kami Terima Silahkan Menunggu Proses Wawancara")
+          },
+          error: function(){
+            alert("Ada yang SALAH")
+          }
+        });
+      }
+    </script>
+  <!-- End Spreadsheet API -->
+</head>
+
+<body>
+  <!-- ======= Top Bar ======= -->
+    <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
+      <div class="container d-flex">
+        <div class="contact-info mr-auto">
+          <i class="bx bxs-envelope"></i> <a href="mailto:admin@dialogika.co">admin@dialogika.co</a>
+          <i class="bx bxs-phone-call"></i> +62 821 377 60 669
+          <i class="bx bxs-location-plus"></i> Special Region of Yogyakarta 
+        </div>
+        <div class="social-links">
+          <a href="https://instagram.com/dialogika.co" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://twitter.com/dialogika_co" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://facebook.com/dialogika.co" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#appointment" class="skype scrollto"><i class="bx bxl-whatsapp"></i></a>
+          <a href="https://linkedin.com/company/dialogika" class="linkedin"><i class="bx bxl-linkedin"></i></i></a>
+        </div>
+      </div>
+    </div>
+  <!-- End Top Bar -->
+
+  <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+        <h1 class="logo mr-auto"><a href="../index.html">
+          <img src="../assets/img/icon.png"></a>
+        </h1>
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li><a href="#feature">Criteria</a></li>
+            <li><a href="#feature">Requirement</a></li>
+            <li><a href="#services">Benefit</a></li>
+            <li><a href="#departments">Division</a></li>
+          </ul>
+        </nav>
+        <a href="#appointment" class="appointment-btn scrollto" style="margin-right: -4px;">Sign Up</a>
+
+      </div>
+    </header>
+  <!-- End Header -->
+
+  <!-- ======= Intro Section ======= -->
+    <section id="intro">
+      <div class="intro-container" data-aos="zoom-in" data-aos-delay="100">
+        <h1 class="mb-4 pb-0">Open Recruitment : <br>
+          <font color="red">Internship</font> Dialogika<br>
+        </h1>
+        <p class="mb-4 pb-0">Suka dengan nuansa ceria namun penuh tantangan? Gabung sekarang!<br>
+          Pembukaan Pendaftaran: <font color="red">13 - 20 Agustus</font>
+        </p>
+        
+        <br>
+        <a href="#appointment" class="about-btn scrollto">Sign Up</a>
+      </div>
+    </section>
+  <!-- End Intro Section -->
+
+  <main id="main">
+
+  <!-- ======= Aboutof Section ======= -->
+    <section id="aboutof">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>Proses Seleksi</h2>
+            <p>Ada Tiga Tahap Pembagian Seleksi  
+              <ul>
+                <li>Panel Interview</li>
+                <li>Homework</li>
+                <li>On Job Test</li>
+                <li>Coronation</li>
+              </ul>
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <h3>Sifat Magang</h3>
+            <p>Via Online & Offline.</p>
+          </div>
+          <div class="col-lg-3">
+            <h3>Timeline Magang</h3>
+            <ul>
+              <li>13 Agustus - 20 Agustus: Pembukaan Magang</li>
+              <li>24 Agustus - 25 Agustus: Panel Interview</li>
+              <li>26 Agustus - 27 Agustus: Homework</li>
+              <li>28 Agustus - 30 September: On Job Test</li>
+              <li>1 Oktober: Coronation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- End Aboutof Section -->
+
+  <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Character Intern</h2>
+          <p>Karakter Internship Yang Cocok Gabung Ke Dialogika</p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+
+            <li data-aos="fade-up">
+              <i class="bx bx-happy-alt icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1"><font color="DC143C">Ceria!</font> buat kamu yang mudah tertawa dan selalu positif ini tempat kamu!<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-left icon-close"></i></a>
+            </li>
+
+            <li data-aos="fade-up">
+              <i class="bx bx-x-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">Punya value <font color="DC143C">NO EXCUSES!:</font> Gak suka dengerin alasan dan bikin alasan.<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-left icon-close"></i></a>
+            </li>
+
+            <li data-aos="fade-up">
+              <i class="bx bxs-hand-right icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1"><font color="DC143C">NO BLAMING!:</font> Nyalah-nyalahin orang BUKAN jalan ninjaku! <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-left icon-close"></i></a>
+            </li>
+
+            <li data-aos="fade-up">
+              <i class="bx bx-expand icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">Suka tantangan: <font color="DC143C">berubah? siapa takut!</font> Pengen keluar dari zona nyaman!<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-left icon-close"></i></a>
+            </li>
+
+            <li data-aos="fade-up">
+              <i class="bx bx-bookmark icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">Suka Baca <font color="DC143C">dan berani</font> melakukan explorasi <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-left icon-close"></i></a>
+            </li>
+
+            <li data-aos="fade-up">
+              <i class="bx bxs-like icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">Disiplin, Tangguh, Inisiatif, Receh <font color="DC143C">Dan MAMPU MENYELESAIKAN INTERNSHIP</font> <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-left icon-close"></i></a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section>
+  <!-- End Frequently Asked Questions Section -->
+
+  <!-- ======= Feature Section ======= -->
+    <section id="feature" class="feature">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>General Requirement</h2>
+          <p>Syarat-Syarat Dasar Bergabung Ke Internship Dialogika</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-6 col-6">
+            <div class="icon-box">
+              <i class="bx bxs-school" style="color: #ffbb2c;"></i>
+              <h3><a href="" onclick="return false;">Mahasiswa</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="icon-box">
+              <i class="bx bxs-graduation" style="color: #5578ff;"></i>
+              <h3><a href="" onclick="return false;">Freshgraduate</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="bx bx-laptop" style="color: #e80368;"></i>
+              <h3><a href="" onclick="return false;">Punya Laptop</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mt-4 mt-md-0">
+            <div class="icon-box">
+               <i class="bx bx-wifi" style="color: #ffa76e;"></i>
+              <h3><a href="" onclick="return false;">Koneksi WiFi/4G</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mt-4">
+            <div class="icon-box">
+              <i class="bx bx-mobile-vibration" style="color: #b20969;"></i>
+              <h3><a href="" onclick="return false;">Punya Smartphone</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mt-4">
+            <div class="icon-box">
+              <i class="bx bxl-instagram" style="color: #ff5828;"></i>
+              <h3><a href="" onclick="return false;">Punya Sosmed</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mt-4">
+            <div class="icon-box">
+              <i class="bx bxs-heart" style="color: #29cc61;"></i>
+              <h3><a href="" onclick="return false;">Cakap/Sehat</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mt-4">
+            <div class="icon-box">
+              <i class="bx bxs-badge-check" style="color: #11dbcf;"></i>
+              <h3><a href="" onclick="return false;">Tidak Sibuk</a></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- End Feature Section -->
+
+  <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Your Benefit</h2>
+          <p>Manfaat Gabung Internship di Dialogika</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-home-heart"></i></div>
+              <h4><a href="">Positive Vibes</a></h4>
+              <p>Di Dialogika itu wajib ceria, bahkan kalau patah hati nggak boleh masuk kerja! 🤣</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxs-donate-heart"></i></div>
+              <h4><a href="">Salah itu Normal</a></h4>
+              <p>Justru kalau bener terus kamu dicurigain! Lepas aja rem-mu! Ayoo jadi kreatif!</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxs-user-badge"></i></div>
+              <h4><a href="">Premium Access</a></h4>
+              <p>Kamu juga bakalan dapat access ke video-video pengembangan diri dengan harga hingga jutaan!</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxs-game"></i></div>
+              <h4><a href="">Gamification!</a></h4>
+              <p>Kita memakai sistem poin seperti game RPG, jadi siapa yang aktif bakalan OP bangeet skillnya!</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-network-chart"></i></div>
+              <h4><a href="">Networking!</a></h4>
+              <p>Bukan sama temen-temen kamu aja yaa! Kamu juga akan networking sama orang-orang yang jauh diatas kamu!</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxs-microphone-alt"></i></div>
+              <h4><a href="">Product Benefit!</a></h4>
+              <p>Setelah satu bulan magang, kamu bisa ikutan kelas Public Speaking secara gratis!</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  <!-- End Services Section -->
+
+  <!-- ======= Cta Section ======= -->
+    <section class="cta">
+      <div class="container">
+
+        <div class="text-center">
+          <h3>We Hire For Character, We Train For Your Skill!</h3>
+          <p>ATTENTION : Internship ini bersifat unpaid</p>
+          <a class="cta-btn scrollto" href="#appointment">LANJUUT!!</a>
+        </div>
+
+      </div>
+    </section>
+  <!-- End Cta Section -->
+
+  <!-- ======= Departments Section ======= -->
+    <section id="departments" class="departments">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Posisi Yang Dibuka</h2>
+          <p>Silahkan: ❶ click posisi yang ingin diketahui dibawah, ❷ kemudian di scroll kebawah </p>
+        </div>
+
+
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-toggle="tab" href="#tab-1">Entrepreneurship</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab-2">Social Media</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab-3">General Affair</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab-4">Human Resource</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <br><h3>Entrepreneurship</h3>
+                    <p class="fst-italic">Divisi ini seksi banget buat kamu yang pengen jadi <i>young entrepreneur</i> dan serunya lagi LANGSUNG PRAKTEK.</p>
+                    <p>Kamu akan belajar dari fundamental sebuah bisnis! Bukan bisnis plan bukan juga bisnis model canvas. Melainkan the real bisnis... yaitu selling dan mindset! Tanpa penjualan... sebagus apapun planning & canvas semuanya akan percuma! Disinilah mentalmu akan di uji!</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="../assets/img/vacancy/intern/d-en.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <br><h3>Social Media</h3>
+                    <p class="fst-italic">Kreatif!? suka seni, hobby di depan, hobby nge desain, hobby bikin meme, nge-bacot ditwitter, bikin tulisan, addict banget dengan sosmed sampai punya banyak akun... </p>
+                    <p>Mungkin divisi ini adalah jalan ninjamu! Goal kamu disini adalah membentuk branding di Dialogika: meningkatkan engagement rate, follower sosial media hingga tiktok, hingga mem-viralkan sesuatu. Buat kamu yang pingin explore ilmu ini lebih dalam cuss join!</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="../assets/img/vacancy/intern/d-sm.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <br><h3>General Affair</h3>
+                    <p class="fst-italic">Sering banget multitasking, anak kalong, jam 9 malam masih pagi dan muka tetap glowing. Suka ngatur jadwal bahkan sering bikin jadwal liburan sekelas sekalipun nggak diminta</p>
+                    <p>Trust Me! Divisi General Affair ini <b>nature</b> buat kamu! Disini kamu bakalan bikin jadwal mentor, ngantur jadwal member, dengerin curhat mereka, bikin laporan, upgrade ilmu! Dan asyiknya lagi... di Divisi ini nggak perlu nunggu sebulan buat bisa merasakan kelas Dialogika.</p>
+                    <p>Hari pertama masuk langsung bisa ikutan kelasnya! Cihuuuyy!!</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="../assets/img/vacancy/intern/d-ga.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <br><h3>Human Resource</h3>
+                    <p class="fst-italic">Disiplin, teliti, suka melihat orang lain bahagia, sering di curhatin dan gemes kalau udah ngasih solusi tapi nggak dilakuin, sista... jangan sia-siakan kebaikanmu</p>
+                    <p>Divisi Human Resource memiliki tiga fokus: Rekruitmen, mencatat setiap perkembangan internship divisi lain di Dialogika dan yang paling penting... <b>menjaga kebahagiaan seisi Dialogika</b></p>
+                    <p>Kamu akan berlatih menjadi kreatif, bikin game, nge-hosting pertemuan hingga giving advice! Kapan lagi coba bisa advice tanpa merasa menggurui? Cuman disini!!!</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="../assets/img/vacancy/intern/d-hr.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  <!-- End Departments Section -->
+
+  <!-- ======= Cta Section ======= -->
+    <section class="cta">
+      <div class="container">
+
+        <div class="text-center">
+          <h3>Pendaftaran Di Buka Hingga</h3>
+        </div>
+
+        <div class="countdown d-flex justify-content-center" data-count="2021/8/20">
+          <div>
+            <h3>%D</h3>
+            <h4>Days</h4>
+          </div>
+          <div>
+            <h3>%H</h3>
+            <h4>Hours</h4>
+          </div>
+          <div>
+            <h3>%M</h3>
+            <h4>Minutes</h4>
+          </div>
+          <div>
+            <h3>%S</h3>
+            <h4>Seconds</h4>
+          </div>
+        </div>
+
+        <div class="text-center" style="margin-top: -50px;">
+          <a class="cta-btn scrollto" href="#appointment">Daftar Sekarang!</a>
+        </div>
+
+      </div>
+    </section>
+  <!-- End Cta Section -->
+
+  <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch">
+            <a href="https://youtu.be/Kgqq0iwtGus" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          </div>
+
+          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+            <h3>More About Us: Dialogika, Vibes, Culture &amp; Why</h3>
+            <p><b>Rasa takut salah, insecure, lingkungan yang toxic</b> dan beragam macam masalah sosial lainnya membuat kita semakin takut untuk meng-eksplore banyak hal. Ditambah lagi ancaman mental health dari sosial media semakin nyata.</p> 
+            <p>Dialogika didirikan oleh Ron Ashrovy untuk mengatasi masalah itu, menjadi tempat <b>dengan vibes positif</b> dan menjadi <b>wadah</b> untuk siapapun yang ingin mengembangkan diri.</p>
+            <p>Begitu pula program <b>internship</b> ini. Program ini sengaja dibentuk untuk mempersiapkan calon lulusan mahasiswa untuk siap di kerasnya dunia startup dan realita bisnis di Indonesia</p>
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-atom"></i></div>
+              <h4 class="title"><a href="">IPK Hanyalah Tiket</a></h4>
+              <p class="description">Nilai IPK tinggi itu bagus dan itu tiket untuk membuka lembar baru, namun bukan segalanya. Fakta pahit lainnya tidak semua perusahaan melihat IPK sebagai syarat namun melihat pengalaman sebagai hal yang utama.</p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-shape-circle"></i></div>
+              <h4 class="title"><a href="">Lingkaran Setan</a></h4>
+              <p class="description">Kondisi masyarakat saat ini membuat kita sering <b>mencontoh</b> kesalahan yang dilakukan oleh orang lain <b>tanpa sadar</b>. Sehingga tidak banyak yang gagal karena tidak mampu keluar dari lingkaran ini. Keluar dari sana! Temukan hal yang baru. Tidak mesti ke Dialogika, banyak platform lainnya yang positif diluar sana. Just Go!</p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-dish"></i></div>
+              <h4 class="title"><a href="">Kita Bukan Generasi Mie Instan</a></h4>
+              <p class="description">Forget about viral! Orang kaya mendadak! Lupakan itu semua! Let's chase our bright future with sweat and blood. Kesalahan generasi millenial, gen-z dan seterusnya adalah kita terbuai dengan kesuksessan orang lain dan merasa bahwa apa yang kita lakukan sekarang nggak bisa membuat kita menjadi kaya atau lebih baik.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  <!-- End About Section -->
+  
+  <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+          <p>Challange buat kamu untuk membaca FAQ <strong>sampai habis.</strong></p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+
+            <li data-aos="fade-up">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">Apa itu Internship Dialogika? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
+                <p>
+                  Mirip seperti internship pada umumnya - sebuah kegiatan magang bersama Dialogika namun bedanya teman-teman tidak hanya di mentoring untuk bagian-bagian tertentu tetapi juga diberikan kesempatan untuk menuangkan ide dan belajar bisnis
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">Oke menarik juga, kelebihannya apa ya? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-parent=".faq-list">
+                <p>
+                  Selain belajar terkait bidang yang disediakan di dalam internship, teman-teman juga akan dilatih untuk bisa menguasai dasar dan mindset di dalam berbisnis, sekaligus belajar untuk networking dengan orang-orang yang lain.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3" class="collapsed">Wah keren, kapan program ini akan dimulai? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-parent=".faq-list">
+                <p>
+                  Di setiap bulan program ini akan selalu di buka untuk para mahasiswa untuk join.
+                </p>
+              </div>
+            </li>
+
+            <li class="more-faq collapse" data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4" class="collapsed">Dimana lokasi Headquarter Dialogika? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+                <p>
+                  Lokasinya di Yogyakarta. Saat ini Dialogika masih bersifat moving office. 
+                </p>
+              </div>
+            </li>
+
+            <li class="more-faq collapse" data-aos="fade-up" data-aos-delay="500">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-6" class="collapsed">Apakah harus bertemu offline? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-6" class="collapse" data-parent=".faq-list">
+                <p>
+                  Iyap harus, karena kita akan belajar vibrasi dan beberapa hal teknis lainnya. Namun bertemu offline tidak setiap hari.
+                </p>
+              </div>
+            </li>
+
+            <li class="more-faq collapse" data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">Berapa lama program ini berlangsung? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+                <p>
+                  Berjalan selama Tiga bulan.<br><br>
+                  Setelah Tiga bulan teman-teman akan berlatih untuk me-mentori teman-teman yang baru join untuk jadi successor teman-teman.
+                </p>
+              </div>
+            </li>
+
+            <li class="more-faq collapse" data-aos="fade-up" data-aos-delay="600">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-7" class="collapsed">Baik, apakah peserta internship mendapatkan bayaran? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-7" class="collapse" data-parent=".faq-list">
+                <p>
+                  Peserta internship tidak mendapatkan bayaran namun, sebagai gantinya teman-teman mendapatkan ilmu dan pengalaman yang tidak biasa. Dan Sertifikat.
+                </p>
+              </div>
+            </li>
+
+            <li class="more-faq collapse" data-aos="fade-up" data-aos-delay="700">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-8" class="collapsed">Oke ka yang penting ilmu! Pasti seru nih belajar di perusahaan startup. Cuss ah join! <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-8" class="collapse" data-parent=".faq-list">
+                <p>
+                  Yuk buat bergabung cukup mengisikan di kolom chat
+                </p>
+              </div>
+            </li>
+
+            <div class="row justify-content-md-center">
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".more-faq" aria-label="Center Align">
+                <!-- <i class="icofont-rounded-down"></i> -->
+                Read More
+              </button>
+            </div>
+
+          </ul>
+        </div>
+
+      </div>
+    </section>
+  <!-- End Frequently Asked Questions Section -->
+
+  <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Testimoni Internship</h2>
+        </div>
+
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="../assets/img/vacancy/intern/member/yunita.jpg" class="testimonial-img" alt="">
+              <h3>Yunita Sarah</h3>
+              <h4>Universitas Islam Indonesia</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i><br>
+                Menjadi bagian dari Dialogika selama 2 Bulan lebih untuk cari pengalaman merupakan hal yang menyenangkan.<br> Saya bertemu dengan kaum muda dari berbagai latarbelakang dan kegiatan dalam internship ini.<br> Setelah internship saya berkesempatan untuk mengikuti kelas basic plus yang menambah kemampuan public speaking saya.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="../assets/img/vacancy/intern/member/rizky.jpg" class="testimonial-img" alt="">
+              <h3>Rizky Aditya Nugroho</h3>
+              <h4>Mahasiswa Universitas Gadjah Mada</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i><br>
+                 Selama 3 bulan program magang, saya merasa mendapatkan banyak ilmu pengetahuan tentang media social. Di Dialogika, saya juga diajari menjadi karyawan dengan praktik langsung selama program magang.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="../assets/img/vacancy/intern/member/ryda.jpg" class="testimonial-img" alt="">
+              <h3>Ryda Kartika Dewi</h3>
+              <h4>Mahasiswa Universitas Pembangunan Nasional Veteran</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i><br>
+                 Belajar di Dialogika merupakan kesempatan besar bagi saya untuk dapat tumbuh secara pribadi maupun professional. Saya berterima kasih dipertemukan dengan teman-teman yang mengajarkan banyak hal dalam mendiskusikan konten dan kerja sama tim.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="../assets/img/vacancy/intern/member/lala.jpg" class="testimonial-img" alt="">
+              <h3>Purna Lala Alfaradhea</h3>
+              <h4>Mahasiswa Universitas Indonesia</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i><br>
+                 Alhamdulillah selama magang 2 bulan saya bertemu dengan sekelompok orang yang luar biasa. Semenjak di Dialogika saya bisa membuat copywriting, merancang feed dan snapgram dan lainnya. Saya mau berterima kasih secara khusus untuk Kak Ron dan Kak Dhealda karena mendukung dan peduli terhadap tim sosmed.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="../assets/img/vacancy/intern/member/lauren.jpg" class="testimonial-img" alt="">
+              <h3>Laurencia Eprina Dian</h3>
+              <h4>Mahasiswa Universitas Atma Jaya</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i><br>
+                 Kesempatan yang sangat berharga untuk magang di Dialogika. Saya banyak belajar tentang pengelolaan konten seperti konten Tik tok dan instagram, membuat copywriting dan desain konten sampai berhasil mendapatka 1400 impresi dan 846 viewer.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="../assets/img/vacancy/intern/member/visca.jpg" class="testimonial-img" alt="">
+              <h3>Arvisca Vandini Putri Baskara</h3>
+              <h4>Mahasiswa Universitas Pembangunan Nasional Veteran </h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i><br>
+                 Bertanggung jawab atas 36 kelas selama 3 bulan di Dialogika membuat wawasan saya semakin terbuka. Tidak hanya itu, selama magang saya banyak belajar untuk membentuk sebuah program/project hingga meng-upgrade product tersebut menjadi lebih layak dan robust. Dan yang paling seru adalah nuansanya! 
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="../assets/img/vacancy/intern/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+              <h3>Millenia Hana</h3>
+              <h4>Mahasiswa DKV UNS Sebelas Maret</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i><br>
+                ❶ Dapet pengalaman, relasi, koneksi, dan banyak pengetahuan baru di lingkungan yang positif.<br>
+                ❷ Belajar memanajemen waktu dan mengatur prioritas. <br>
+                ❸ Jadi paham seperti apa dunia kerja terutama di ranah startup.<br>
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="../assets/img/vacancy/intern/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+              <h3>Indhira Widanur</h3>
+              <h4>Fresh Graduate UGM</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Alhamdulillah magang di dialogika aku ngerasa banyak bgt benefit, selain portofolio juga ilmu-ilmu yang lain. Sering masuk kelas jg jd tambah pengetahuan dengan gratis hehe.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="../assets/img/vacancy/intern/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+              <h3>Nizar Musaffa</h3>
+              <h4>Mahasiswa Psikologi UGM</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Selama saya terlibat sebagai intern di Dialogika, saya telah mencicipi bagian kecil dari dunia karir. Saya tumbuh menjadi orang yang lebih cekatan dan disiplin dalam menjalankan tugas. Memang ada saat-saat berat terutama ketika harus membagi waktu dengan kegiatan lain, tetapi pada akhirnya saya merasa menjadi orang yang lebih baik disini.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  <!-- End Testimonials Section -->
+
+  <!-- ======= Appointment Section ======= -->
+    <section id="appointment" class="appointment section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Form Pendaftaran</h2>
+          <p>Pastikan kamu membaca <a href="#faq" class="scrollto"><b>F.A.Q</b></a> sampai habis sebelum mengisi ini.</p>
+        </div>
+
+        <form method="post" id="daftar" action="" role="form" class="php-email-form">
+          <div class="form-row">
+            <div class="col-md-4 form-group">
+              <input type="text" name="Nama" class="form-control"  placeholder="Nama Lengkap" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-4 form-group">
+              <input type="email" class="form-control" name="Email"  placeholder="Email" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+
+            <div class="col-md-4 form-group">
+              <select name="Division" id="division" class="form-control">
+                <option value="">Departement Yang Dipilih</option>
+                <option value="Entrepreneurship">Entrepreneurship</option>
+                <option value="Social Media Specialist">Social Media Specialist</option>
+                <option value="General Affair">General Affair</option>
+                <option value="Human Resource">Human Resource</option>
+              </select>
+              <div class="validate"></div>
+            </div>
+            
+          </div>
+          <div class="form-row">
+            <div class="col-md-4 form-group">
+              <input type="text" class="form-control" name="LinkedIn"  placeholder="Link: Linkedin" data-rule="minlen:4" data-msg="Please enter a valid domicile">
+              <small id="passwordHelpBlock" class="form-text text-muted">
+                Contoh: id.linkedin.com/in/ashrovy
+              </small>
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-4 form-group">
+              <input type="text" class="form-control" name="Instagram"  placeholder="ID Instagram" data-rule="minlen:2" data-msg="Please enter at least 2 chars">
+              <small id="passwordHelpBlock" class="form-text text-muted">
+                Contoh: instagram.com/dialogika.co
+              </small>
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-4 form-group">
+              <input type="tel" class="form-control" name="Whatsapp"  placeholder="Whatsapp" data-rule="minlen:8" data-msg="Please enter the right number">
+              <small id="passwordHelpBlock" class="form-text text-muted">
+                Contoh: 6282137760669
+              </small>
+              <div class="validate"></div>
+            </div>
+            
+          </div>
+
+          <div class="form-group">
+            <input class="form-control" name="CV" id="message" placeholder="Link CV Terupload Google Drive & Bisa Dilihat"></textarea>
+            <small id="passwordHelpBlock" class="form-text text-muted">
+                Contoh: https://drive.google.com/file/d/1vcqgVGlDhBilCcfBe9-q8KtRNHaIhCq5/<b>view?usp=sharing</b>
+              </small>
+            <div class="validate"></div>
+          </div>
+
+          <div class="form-group">
+            <textarea class="form-control" name="Motivation" id="message" rows="5" placeholder="Motivation Letter"></textarea>
+            <div class="validate"></div>
+          </div>
+
+          <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" value="TRUE" name="Unpaid" id="unpaid">
+            <label class="custom-control-label" for="unpaid">Saya sudah membaca dan <b>setuju</b> bahwa Internship di Dialogika bersifat <b>unpaid</b></label>
+          </div>
+
+          <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" value="TRUE" name="Rules" id="rules">
+            <label class="custom-control-label" for="rules">Saya sudah membaca dan <b>setuju</b> dengan <u><a href="https://docs.google.com/document/d/1bTv_AV--L9ZJugGbrcbcThi--sbQBVKb2wmvB008PQc/edit?usp=sharing" target="__blank" type="text" class="">Basic Rules</a></u> Dialogika</label>
+          </div>
+
+          <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" value="TRUE" name="Promise" id="promise">
+            <label class="custom-control-label" for="promise">Saya bersedia dan <b>berkomitmen</b> mengikuti program Intership Dialogika selama Tiga Bulan</label>
+          </div>
+
+          <br>
+         
+          <div class="mb-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your application has been sent successfully. Thank you!</div>
+          </div>
+
+          <div class="text-center"><a class="btn-send" type="" onclick='SubForm()' href="javascript:void" role="button" >Send Application</a></div>
+        </form>
+
+        <!-- <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".more-faq" aria-label="Center Align"> -->
+
+      </div>
+    </section>
+  <!-- End Appointment Section -->
+
+  <!-- ======= Venue Section ======= -->
+    <section id="venue">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row no-gutters">
+          <div class="col-lg-6 venue-map">
+            <iframe src="https://maps.google.com/maps?q=konkrite%20caffe&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+
+          <div class="col-lg-6 venue-info">
+            <div class="row justify-content-center">
+              <div class="col-11 col-lg-8">
+                <h3>Moving Office Concept</h3>
+                <p>No Office No Problem! Sejujurnya jika kita ngumpul, kita selalu berpindah-pindah kafe. Dan Dialogika belum memiliki kantor tetap karena semua anggotanya gampang bosenan. Bahkan saking seringnya kita pindah-pindah kafe. Kita sampai punya list WiFi Password kafe hingga hotel!</p><br>
+                <p>So buat kamu yang extrovert, gaya ngantor macam seperti ini pasti cocok bangeeet!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container-fluid venue-gallery-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="../assets/img/vacancy/intern/gallery/gallery-1.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="../assets/img/vacancy/intern/gallery/gallery-1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="../assets/img/vacancy/intern/gallery/gallery-2.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="../assets/img/vacancy/intern/gallery/gallery-2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="../assets/img/vacancy/intern/gallery/gallery-3.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="../assets/img/vacancy/intern/gallery/gallery-3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="../assets/img/vacancy/interngallery/gallery-4.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="../assets/img/vacancy/intern/gallery/gallery-4.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="../assets/img/vacancy/intern/gallery/gallery-5.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="../assets/img/vacancy/intern/gallery/gallery-5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="../assets/img/vacancy/intern/gallery/gallery-6.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="../assets/img/vacancy/intern/gallery/gallery-6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="../assets/img/vacancy/intern/gallery/gallery-7.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="../assets/img/vacancy/intern/gallery/gallery-7.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="../assets/img/vacancy/intern/gallery/gallery-8.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="../assets/img/vacancy/intern/gallery/gallery-8.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+  <!-- End Venue Section -->
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <!-- <h3><b><font color="#2279C9">DIA</font>LOGIKA</b></h3> -->
+              <h3>
+                <img src="../assets/img/icon.png"></a>
+              </h3>
+              <p>
+                Lembaga dan wadah untuk belajar public speaking dengan fokus latihan dan membebaskan mindset takut salah, insecure, dan berani untuk mengembangkan diri.
+              </p>
+              <div class="social-links mt-3">
+                <a href="twitter.com/dialogika_co" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="facebook.com/dialogika.co" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="instagram.com/dialogika.co" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="whatsapp.com/6282137760669" class="google-plus"><i class="bx bxl-whatsapp"></i></a>
+                <a href="https://linkedin.com/company/dialogika" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="../blog/index.html">Dialogika Blog</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="../vacancy/team.html">Dialogika Team</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="../vacancy/mentor.html">Dialogika Mentor</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="../vacancy/intern.html">Internship Program</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Best Choice</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="basic-class.html">Basic Level</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="basic-plus.html">Basic Plus</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="first-class.html">First Class</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="master-class.html">Master Class</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+              <h4>Subscribe Whatsapp Group</h4>
+              <p>Jangan lewatkan info mengenai Dialogika didalam group ini. Silahkan ketikkan "Saya join!" kemudian click subscribe!</p>
+              <form action="https://chat.whatsapp.com/GxcSTigPNsWFG4cTlbKgFv" method="post"> 
+                <input type="text" name="subscribes"><input type="submit" value="Subscribe">
+              </form>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-md-flex py-4">
+
+        <div class="mr-md-auto text-center text-md-left">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Dialogika</span></strong>. All Rights Reserved
+          </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="https://twitter.com/dialogika_co" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://facebook.com/dialogika.co" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://instagram.com/dialogika.co" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#contact" class="google-plus"><i class="bx bxl-whatsapp"></i></a>
+          <a href="https://linkedin.com/company/dialogika" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+  <!-- End Footer -->
+
+  
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/jquery/jquery.min.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="../assets/vendor/jquery-countdown/jquery.countdown.min.js"></script>
+  <script src="../assets/vendor/counterup/counterup.min.js"></script>
+  <script src="../assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="../assets/vendor/venobox/venobox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/wa/event/workshop/speed-class.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  
+  <!-- Template Main JS File -->
+  <script src="../assets/js/event/workshop/speed-class.js"></script>
+  <script type="text/javascript">
+  </script>
+
+</body>
+
+</html>
