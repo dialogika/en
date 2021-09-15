@@ -450,7 +450,7 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../../img/blog/blog-bg.jpg") top center;
   background-size: cover;
   position: relative;
-  margin-bottom: -200px;
+  margin-bottom: 0px;
 }
 
 #hero .container {
@@ -1896,6 +1896,7 @@ section {
   padding: 30px;
   margin-bottom: 60px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  /*border-radius: 15px;*/
 }
 
 .blog .entry .entry-img {
@@ -1947,6 +1948,10 @@ section {
   font-size: 14px;
   display: inline-block;
   line-height: 1;
+}
+
+.blog .entry .entry-content img {
+  max-width: 100%;
 }
 
 .blog .entry .entry-content p {
