@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Company Employee Class | Public Speaking Dialogika</title>
+  <meta name="description"
+    content="Pelatihan, In House Training, Seminar, Workshop untuk Bangun Karyawan Yang Tangguh dan Memiliki Skill untuk menunjang kinerja perusahaan Anda" />
+  <meta name="keywords" content="skill, public speaking, training, kelas, pelatihan, inhouse training" />
+  <meta name="author" content="Dialogika" />
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.webp" rel="icon">
+  <link href="assets/img/apple-touch-icon.webp" rel="apple-touch-icon">
+
+  <!-- OG Meta Tags to share -->
+  <meta property="og:site_name" content="Kelas Public Speaking" />
+  <meta property="og:site" content="www.dialogika.co" />
+  <meta property="og:title" content="Cara Mengatasi Overthinking | Event Dialogika" />
+  <meta property="og:description" content="Event Dialogika" />
+  <meta property="og:image" content="assets/img/hero-bg.webp" />
+  <meta property="og:url" content="www.dialogika.co/corporate" />
+  <meta property="og:type" content="page" />
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/2ac952ed2e.js" crossorigin="anonymous"></script>
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.css" rel="stylesheet" />
+
+
+  <!-- Part CSS Files -->
+  <link href="assets/part/theme-counter/theme-counter.css" rel="stylesheet" />
+  <link href="assets/part/testimoni-insurin/testi.css" rel="stylesheet" />
+  <link href="assets/part/about-append/about.css" rel="stylesheet" />
+  <link href="assets/part/cta-append/cta.css" rel="stylesheet" />
+  <link href="assets/part/contact-append/contact.css" rel="stylesheet" />
+  <link href="assets/part/portfolio-insurin/portfolio.css" rel="stylesheet" />
+  <link href="assets/part/category/category.css" rel="stylesheet" />
+  <link href="assets/part/popup-box/popup.css" rel="stylesheet" />
+
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+
+  <!--  ========================================================  -->
+  <!-- Spreadsheet API Form Pendaftaran -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script>
+      function HeroForm() {
+          $.ajax({
+              url:"https://api.apispreadsheets.com/data/JYfPTNSLW4GoVohc/",
+              type: "post",
+              data: $("#HeroForms").serializeArray(),
+              headers: {
+                  accessKey: "6df7b75d348bfbdfa9684dfc76ed0053",
+                  secretKey: "68a998592183dc30cdc2b07576759f04"
+              },
+              success: function () {
+                  alert(" Permintaan telah di submit :)")
+              },
+              error: function () {
+                  alert("There was an error :(")
+              }
+          });
+      }
+
+      function SubForm() {
+          $.ajax({
+              url:"https://api.apispreadsheets.com/data/JYfPTNSLW4GoVohc/",
+              type: "post",
+              data: $("#myForm").serializeArray(),
+              headers: {
+                  accessKey: "6df7b75d348bfbdfa9684dfc76ed0053",
+                  secretKey: "68a998592183dc30cdc2b07576759f04"
+              },
+              success: function () {
+                  alert("Anda Telah Mendaftar :)")
+              },
+              error: function () {
+                  alert("There was an error :(")
+              }
+          });
+      }
+
+      function Subcription() {
+          $.ajax({
+              url: "https://api.apispreadsheets.com/data/18511/",
+              type: "post",
+              data: $("#subcriptions").serializeArray(),
+              success: function () {
+                  // $('#subcription-modal').modal('show');
+                  // open("https://link.dialogika.co/open-whatsapp-group");
+                  window.location.href = "https://link.dialogika.co/open-whatsapp-group";
+              },
+              error: function () {
+                  alert("There was an error :(")
+              }
+          });
+      }
+  </script>
+  <!-- End Spreadsheet API Form Pendaftaran -->
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '916674555903437');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=916674555903437&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <!-- Pixel Quora -->
+  <!-- DO NOT MODIFY -->
+  <!-- Quora Pixel Code (JS Helper) -->
+  <script>
+    !function (q, e, v, n, t, s) { if (q.qp) return; n = q.qp = function () { n.qp ? n.qp.apply(n, arguments) : n.queue.push(arguments); }; n.queue = []; t = document.createElement(e); t.async = !0; t.src = v; s = document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s); }(window, 'script', 'https://a.quora.com/qevents.js');
+    qp('init', 'cae6711903da464ab62f03df5f66aedc');
+    qp('track', 'ViewContent');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://q.quora.com/_/ad/cae6711903da464ab62f03df5f66aedc/pixel?tag=ViewContent&noscript=1" /></noscript>
+  <!-- End of Quora Pixel Code -->
+  <script>qp('track', 'GenerateLead');</script>
+  <!-- End Pixel Quora -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HV60XT856G"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-148836422-2');
+    gtag('config', 'G-HV60XT856G');
+  </script>
+  <!-- End Global site tag (gtag.js) - Google Analytics -->
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KGK9D6H');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Hotjar Tracking Code for https://dialogika.co -->
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+      h._hjSettings = { hjid: 2828594, hjsv: 6 };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script'); r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
+  <!-- End Hotjar -->
+  <!--  ========================================================  -->
+</head>
+
+<body>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KGK9D6H" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe>
+  </noscript><!-- End Google Tag Manager (noscript) -->
+
+  <!-- ======= Top Bar, Header, Side Bar ======= -->
+  <main-header></main-header>
+  <!-- ======= Top Bar, Header, Side Bar ======= -->
+
+  <!-- ======= Breadcrumbs Section ======= -->
+  <section class="breadcrumbs">
+    <div class="container">
+
+      <div class="d-flex justify-content-between align-items-center">
+        <h2>Corporate</h2>
+        <ol>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="index.html">Corporate</a></li>
+        </ol>
+      </div>
+
+    </div>
+  </section><!-- End Breadcrumbs Section -->
+
+  <main id="main">
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+      <div class="container text-center text-md-start">
+        <h1>COMPANY <span class="in-text-gradiant">EMPLOYEE SPECIAL</span> CLASS</h1>
+        <hr class="d-md-none d-block" />
+        <h2>Upscale Company Productivity by Investing in Employee Softskills</h2>
+        <div class="col-lg-5">
+          <form action="#" class="sign-up-form d-flex" data-aos="fade-up" data-aos-delay="300">
+            <input type="tel" class="form-control" placeholder="Your whatsapp number">
+            <input type="submit" class="btn btn-primary" value="Contact Admin">
+          </form>
+        </div>
+      </div>
+    </section><!-- End Hero -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/corporate/uad.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/corporate/amikom.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/corporate/mercu.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/corporate/polita.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/corporate/uin-suka.png" class="img-fluid" alt=""></div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section><!-- End Clients Section -->
+
+    <!-- About Section - Home Page -->
+    <section id="about" class="about-append">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-xl-center gy-5">
+
+          <div class="col-xl-5 content">
+            <div class="section-title">
+              <h5>About Us</h5>
+              <h3>Unleash Your <br class="d-none d-md-block"> Employee Full Potential</h3>
+            </div>
+            <p>Dialogika is the home of change for you and your employees who want to <span class="badge text-bg-primary">upgrade their mindset</span>, network and improve their communication skills. communication skills. We provide trainings,  workshops, in house trainings related to public speaking and personal development.</p>
+            <a href="../about/" class="read-more" target="_blank"><span>Read More</span><i
+                class="bi bi-arrow-right"></i></a>
+          </div>
+
+          <div class="col-xl-7">
+            <div class="row gy-4 icon-boxes">
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box">
+                  <i class="bi bi-chat-right-dots-fill"></i>
+                  <h3>Focus on Practice</h3>
+                  <p>In House at Dialogika <span class="badge text-bg-primary">focuses</span> more on <span class="badge text-bg-primary">practice</span> and implementation after the presentation of the material.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-tools"></i>
+                  <h3>Customize Material</h3>
+                  <p>Dialogika has some standard materials but they can be <span class="badge text-bg-primary">customized</span> according to needs.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-person-fill-check"></i>
+                  <h3>Free Consultation</h3>
+                  <p><span class="badge text-bg-primary">After the training</span>, participants are free to consult with Dialogika if there are obstacles in the field.
+                  </p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-ui-checks"></i>
+                  <h3>Online & Offline</h3>
+                  <p>Training can take place either online or offline, according to the company's <span class="badge text-bg-primary">request</span>.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+    <!-- ======= Theme-Counter Section ======= -->
+    <div class="theme-counter section-bg">
+      <div class="container">
+        <div class="bg">
+          <div class="section-title">
+            <h6>Our Achievement</h6>
+            <h2>Some facts about our company</h2>
+          </div>
+          <div class="cunter-wrapper">
+            <div class="row">
+              <div class="col-md-3 col-6">
+                <div class="single-counter-box">
+                  <div class="number"><b><span data-purecounter-start="0" data-purecounter-end="468"
+                        data-purecounter-duration="1" class="purecounter">0</span></b>+</div>
+                  <p class="text-nowrap">Total Classes</p>
+                </div> <!-- /.single-counter-box -->
+              </div> <!-- /.col- -->
+              <div class="col-md-3 col-6">
+                <div class="single-counter-box">
+                  <div class="number"><span data-purecounter-start="0" data-purecounter-end="97"
+                      data-purecounter-duration="1" class="purecounter">0</span>%</div>
+                  <p class="text-nowrap">Client Satisfaction</p>
+                </div> <!-- /.single-counter-box -->
+              </div> <!-- /.col- -->
+              <div class="col-md-3 col-6">
+                <div class="single-counter-box">
+                  <div class="number"><span data-purecounter-start="0" data-purecounter-end="1105"
+                      data-purecounter-duration="1" class="purecounter">0</span>+</div>
+                  <p class="text-nowrap">Total Member</p>
+                </div> <!-- /.single-counter-box -->
+              </div> <!-- /.col- -->
+              <div class="col-md-3 col-6">
+                <div class="single-counter-box">
+                  <div class="number"><span data-purecounter-start="0" data-purecounter-end="11"
+                      data-purecounter-duration="1" class="purecounter">0</span></div>
+                  <p class="text-nowrap">Mentor</p>
+                </div> <!-- /.single-counter-box -->
+              </div> <!-- /.col- -->
+            </div> <!-- /.row -->
+          </div> <!-- /.cunter-wrapper -->
+          <a href="https://www.google.com/maps/place/Dialogika+Kelas+Public+Speaking/@-7.7552251,110.3760129,17z/data=!4m18!1m9!3m8!1s0x2e7a597ab489149d:0x9306a2474322de7c!2sDialogika+Kelas+Public+Speaking!8m2!3d-7.7552251!4d110.3785878!9m1!1b1!16s%2Fg%2F11qyjgv8c8!3m7!1s0x2e7a597ab489149d:0x9306a2474322de7c!8m2!3d-7.7552251!4d110.3785878!9m1!1b1!16s%2Fg%2F11qyjgv8c8?entry=ttu"
+            class="theme-button-one" target="__blank">Check Google Review</a>
+        </div> <!-- /.bg -->
+      </div> <!-- /.container -->
+    </div> <!-- /.theme-counter -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="section-title">
+              <h5>In House Training</h5>
+              <h3>Material and Practice</h3>
+              <p class="text-start">General and Specific Training Materials, <span class="badge text-bg-primary">swipe</span> and <span class="badge text-bg-primary">click</span> these are the forms of training that are often requested by companies to Dialogika.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 video-tap">
+            <a href="https://youtu.be/VYSMHbm1QPA" class="glightbox play-btn"></a>
+            <img src="assets/img/gallery/uad2.webp" alt="video-bg" class="rounded img-fluid title-img d-flex" />
+          </div>
+        </div>
+
+        <div class="service-slider swiper">
+          <div class="swiper-wrapper" style="margin-bottom:20px;">
+            <div class="swiper-slide">
+              <div class="d-flex align-items-stretch mt-4">
+                <div class="icon-box">
+                  <div class="icon"><i class="fa-solid fa-handshake-simple"></i></div>
+                  <h4><a href="sales-pitch.html">Sales Pitch</a></h4>
+                  <p>Helping salespeople to be <span class="badge text-bg-primary">more confident</span> when giving offers to prospective clients</p>
+                  <a href="sales-pitch.html" class="more-info-service">More Info</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="d-flex align-items-stretch mt-4">
+                <div class="icon-box">
+                  <div class="icon"><i class="fa-solid fa-tower-broadcast"></i></div>
+                  <h4><a href="host-live.html">Host Live</a></h4>
+                  <p>Provide training on how to <span class="badge text-bg-primary">build engagement</span> and keep your voice optimized during LIVE.</p>
+                  <a href="host-live.html" class="more-info-service">More Info</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="d-flex align-items-stretch mt-4">
+                <div class="icon-box">
+                  <div class="icon"><i class="fa-solid fa-hotel"></i></div>
+                  <h4><a href="hospitality.html">Hospitality</a></h4>
+                  <p>Assist employees especially in the hospitality business (ex Hotel) to build <span class="badge text-bg-primary">rapport</span> with clients.</p>
+                  <a href="hospitality.html" class="more-info-service">More Info</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="d-flex align-items-stretch mt-4">
+                <div class="icon-box">
+                  <div class="icon"><i class="fa-solid fa-face-angry"></i></div>
+                  <h4><a href="handling-complain.html">Handling Complain</a></h4>
+                  <p>Helping friends (especially) <span class="badge text-bg-primary">customer service</span> to better trained to respond to client complaints</p>
+                  <a href="handling-complain.html" class="more-info-service">More Info</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="d-flex align-items-stretch mt-4">
+                <div class="icon-box">
+                  <div class="icon"><i class="fa-solid fa-business-time"></i></div>
+                  <h4><a href="daily-briefing.html">Daily Briefing</a></h4>
+                  <p>Practice providing daily briefings to the team to <span class="badge text-bg-primary">minimize</span> miss communication </p>
+                  <a href="daily-briefing.html" class="more-info-service">More Info</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="d-flex align-items-stretch mt-4">
+                <div class="icon-box">
+                  <div class="icon"><i class="fa-solid fa-person-chalkboard"></i></div>
+                  <h4><a href="high-impact.html">High Impact Presentation</a></h4>
+                  <p>Helps employees deliver a <span class="badge text-bg-primary">detailed</span> yet <span class="badge text-bg-primary">easy-to-understand</span> message during important presentations.</p>
+                  <a href="high-impact.html" class="more-info-service">More Info</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="d-flex align-items-stretch mt-4">
+                <div class="icon-box">
+                  <div class="icon"><i class="fa-solid fa-people-roof"></i></div>
+                  <h4><a href="basic-public.html">Basic Public Speaking</a></h4>
+                  <p>Help all participants to understand and <span class="badge text-bg-primary">practice</span> public speaking and overcome fear.</p>
+                  <a href="basic-public.html" class="more-info-service">More Info</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- Call-to-action Section - Home Page -->
+    <section id="call-to-action" class="call-to-action">
+      <img src="https://michaelhyatt.com/wp-content/uploads/2013/08/iStock_000022230045Medium.jpg" alt="">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Free Consultation</h3>
+              <p>Still confused about which class you want to take? Contact a Dialogika Admin Now! You can chat and determine the program that best suits your needs.</p>
+              <a class="cta-btn" href="https://wa.me/6285162992597" target="__blank">Whatsapp Admin</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Call-to-action Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="content">
+              <h3>Why <span>Choose</span> Us?</h3>
+              <hr />
+              <p>
+                According to studies, <span class="badge text-bg-warning">misunderstandings</span> that occur due to non-verbal language, 
+                digital literacy, language and culture range between <span class="badge text-bg-warning">60%</span>, which means that 
+                quite a lot of work problems are caused by communication problems. 
+                Ironically, the majority of companies ignore this so that <span class="badge text-bg-secondary">these mistakes</span> repeatedly occur 
+                within the company. We at Dialogika are quite concerned with this issue and we <span class="badge text-bg-danger">provide 
+                  training</span> so that companies can perform better.
+              </p>
+
+              <div class="text-center">
+                <a href="#more-why" class="more-btn scrollto">What We Offer <i
+                    class="bx bx-chevron-right desktop-arrow"></i> <i class="bx bx-chevron-down mobile-arrow"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-xl-4 d-flex align-items-stretch" id="more-why">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <img src="assets/img/home/x1.png">
+                    <h4>In House Training</h4>
+                    <p>Dialogika provides a <span class="badge text-bg-primary">variety of training</span> that can be customized according to your needs.</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <img src="assets/img/home/x3.png">
+                    <h4>Seminar / Webinar</h4>
+                    <p>Suitable for <span class="badge text-bg-primary">introducing</span> and educating employees about the company's values.</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <img src="assets/img/home/x2.png">
+                    <h4>Consultation</h4>
+                    <p>Help the company <span class="badge bg-primary">find</span> or <span class="badge text-bg-primary">overcome</span> the obstacles that the company currently has.</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+       <div class="row">
+        <div class="col-lg-3">
+          <div class="section-title" data-aos="fade-right">
+            <h5>Testimonials</h5>
+            <h3>Positive Feedback</h3>
+            <p class="text-start">All the testimonials featured here are from members who have participated in our online, offline, children's, and special corporate programs. Please check the real feedback on our Google reviews.</p>
+            <div class="text-center text-md-start" style="margin-top:20px;">
+              <a target="__blank" href="https://www.google.com/maps/place/Dialogika+Kelas+Public+Speaking/@-7.7552251,110.3760129,17z/data=!4m18!1m9!3m8!1s0x2e7a597ab489149d:0x9306a2474322de7c!2sDialogika+Kelas+Public+Speaking!8m2!3d-7.7552251!4d110.3785878!9m1!1b1!16s%2Fg%2F11qyjgv8c8!3m7!1s0x2e7a597ab489149d:0x9306a2474322de7c!8m2!3d-7.7552251!4d110.3785878!9m1!1b1!16s%2Fg%2F11qyjgv8c8?entry=ttu">Google Review</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <div class="testimonial-wrap">
+                  <div class="testimonial-item">
+                    <img src="https://lh3.googleusercontent.com/a-/ALV-UjUerRQXePjqRfQdV18KNpbPS4slNXhSflUWVgOTgV0ImQ=w72-h72-p-rp-mo-br100" class="testimonial-img" alt="">
+                    <h3>Maysarah</h3>
+                    <h4>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </h4>
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      Thank you to Dialogika and also my mentor, Panji Arya. During my time learning here, I was always given challenges that allowed me to gain more experience and new lessons in public speaking. Moreover, the classes are very enjoyable. In short, it's awesome.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-wrap">
+                  <div class="testimonial-item">
+                    <img src="https://lh3.googleusercontent.com/a-/ALV-UjUEw8d2W9pLUIDTodoFHwwIjhoLrxtkUA0LqFKfnrAmSLBV=w72-h72-p-rp-mo-br100" class="testimonial-img" alt="">
+                    <h3>Ahda Syifa</h3>
+                    <h4>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </h4>
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      I'm really happy to join the class here; the class is fun and interesting, and the mentors are cool too. I happened to get mentor Fany, and I'm sure the other mentors are just as exciting. I gained a lot of knowledge that greatly helps in improving my public speaking and boosts my confidence. The class schedule is also flexible. It's very, very worth it to join the class here.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div><!-- End testimonial item -->
+
+              
+
+              <div class="swiper-slide">
+                <div class="testimonial-wrap">
+                  <div class="testimonial-item">
+                    <img src="https://lh3.googleusercontent.com/a-/ALV-UjWRAop2NAYOnPSO-FF8T6ubTHKs4F2JrUoMA3qZ1CqKcw=w72-h72-p-rp-mo-br100" class="testimonial-img" alt="">
+                    <h3>Qistina Arifadini</h3>
+                    <h4>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </h4>
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      After attending the public speaking class at Dialogika, I learned many new things, from self-branding and presentation skills to practicing as an MC. My mentor, Aditya, is very kind and always spreads positive vibes. The schedule is also very flexible, accommodating the participants' schedules. It's definitely worth it to take the public speaking course at Dialogika!
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-wrap">
+                  <div class="testimonial-item">
+                    <img src="https://lh3.googleusercontent.com/a-/ALV-UjVKsGynC7YR1LttqNOp1kT7KiE7j3u5qDE79oy7bZzgJls=w72-h72-p-rp-mo-br100" class="testimonial-img" alt="">
+                    <h3>Annissa Ibtisamah</h3>
+                    <h4>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </h4>
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      A suitable place for beginners to learn public speaking, the mentors are friendly and not boring. Highly recommended!! Wishing Dialogika continued success.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div><!-- End testimonial item -->
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+       </div>
+      </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mt-4">
+            <div class="section-title">
+              <h6>F.A.Q</h6>
+              <h2>About Training</h2>
+            </div>
+            <div class="faq-list">
+              <ul>
+                <li data-aos="fade-up">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
+                    data-bs-target="#faq-list-1">Do we need to take basic training? <i
+                      class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
+                    <p>
+                      You don't have to, but if your problem is with the basics of public speaking, we recommend that you take the basic training first before moving on to more advanced levels. suggest taking the basic training first before going to a more demanding level. more
+                    </p>
+                  </div>
+                </li>
+
+                <li data-aos="fade-up" data-aos-delay="100">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2"
+                    class="collapsed">How do we know there is improvement in our employees? <i
+                      class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                    <p>
+                      For in-house training in the initial session we give simple exercises and at the end we give exercises again, changes are usually seen from there. Often changes happen after the training has taken place
+                    </p>
+                  </div>
+                </li>
+
+                <li data-aos="fade-up" data-aos-delay="200">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3"
+                    class="collapsed">Is the accommodation covered by us? <i
+                      class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                    <p>
+                      Yes, Dialogika only provides materials, mentors, modules and all training needs but the
+                      accommodation, venue or lodging is determined by the organizer or company.
+                    </p>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-4" style="">
+            <div class="section-title">
+              <h6>Our Mentor</h6>
+              <h2>Corporate Trainer</h2>
+            </div>
+            <div class="align-items-center doctors mentor-doctor swiper" style="height: 300px;width: auto;">
+              <div class="mentor-swiper swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="member d-flex align-items-start">
+                    <div class="pic"><img src="assets/img/mentor/fanny.jpg" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                      <h4>Fanny Carolina</h4>
+                      <span>Mentor Yogyakarta</span>
+                      <p>15 years of experience in the world of Professional MC and at a national scale.</p>
+                      <div class="more-btn" style="margin-top:20px;">
+                        <a href="mentor/fanny.html">More About Her</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="member d-flex align-items-start ">
+                    <div class="pic"><img src="assets/img/mentor/tiya.jpg" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                      <h4>Husnul Fatiya</h4>
+                      <span>Mentor Online</span>
+                      <p>One of the best online mentors at Dialogika.</p>
+                      <div class="more-btn" style="margin-top:20px;">
+                        <a href="mentor/tiya.html">More About Her</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="member d-flex align-items-start ">
+                    <div class="pic"><img src="assets/img/mentor/pitta.jpg" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                      <h4>Pitta Sekar</h4>
+                      <span>Mentor Bintaro</span>
+                      <p>With over 15 years of experience in the world of public relations and MC.</p>
+                      <div class="more-btn" style="margin-top:20px;">
+                        <a href="mentor/pitta.html">More About Her</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="member d-flex align-items-start ">
+                    <div class="pic"><img src="assets/img/mentor/fajar.jpg" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                      <h4>Fajar Daniel</h4>
+                      <span>Mentor Online</span>
+                      <p>This mentor is from a medical background and is quite an expert in therapeutic communication.</p>
+                      <div class="more-btn" style="margin-top:20px;">
+                        <a href="mentor/fajar.html">More About Him</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="swiper-scrollbar"></div> -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Courses Category ======= -->
+    <section class="section-full content-inner" id="favorite"
+      style="background: rgb(255,255,255);background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(241,247,253,1) 100%);">
+      <div class="container">
+        <div class="row">
+
+          <div class="row gy-4">
+            <div class="col-lg-6 col-md-6 m-b30">
+              <a href="#" class="category-box dlab-box" onclick="return false;">
+                <div class="dlab-media dlab-img-effect zoom">
+                  <img src="assets/img/gallery/uad1.webp" alt="Kelas Public Speaking Jogja">
+                  <div class="top-lefts"><span class="badge text-bg-danger">In House</span></div>
+                </div>
+
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-6 m-b30">
+              <a href="#" class="category-box dlab-box" onclick="return false;">
+                <div class="dlab-media dlab-img-effect zoom">
+                  <img src="assets/img/gallery/uad2.webp" alt="Kelas Public Speaking Online">
+                  <div class="top-lefts"><span class="badge rounded-pill text-bg-primary">In House</span></div>
+                </div>
+
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-6 m-b30">
+              <a href="#" class="category-box dlab-box" onclick="return false;">
+                <div class="dlab-media dlab-img-effect zoom">
+                  <img src="assets/img/gallery/smk1.webp" alt="Kelas Public Speaking Anak">
+                  <div class="top-lefts"><span class="badge rounded-pill text-bg-warning">In House</span></div>
+                </div>
+
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-6 m-b30">
+              <a href="#" class="category-box dlab-box" onclick="return false;">
+                <div class="dlab-media dlab-img-effect zoom">
+                  <img src="assets/img/gallery/smk2.webp" alt="Kelas Public Speaking Tangerang Selatan">
+                  <div class="top-lefts"><span class="badge text-bg-success">In House </span></div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-6 m-b30">
+              <a href="#" class="category-box dlab-box" onclick="return false;">
+                <div class="dlab-media dlab-img-effect zoom">
+                  <img src="assets/img/gallery/ev1.webp" alt="Kelas Karyawan">
+                  <div class="top-lefts"><span class="badge text-bg-danger">In House Online</span></div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6 col-md-6 m-b30">
+              <a href="#" class="category-box dlab-box" onclick="return false;">
+                <div class="dlab-media dlab-img-effect zoom">
+                  <img src="assets/img/gallery/uad3.webp" alt="Pelatihan Public Speaking Anak">
+                  <div class="top-lefts"><span class="badge text-bg-danger">In House</span></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Courses Category -->
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer & Counter Area ======= -->
+  <main-footer></main-footer>
+  <!-- ======= End Footer & Counter Area ======= -->
+
+  <a href="#exampleModal" data-bs-toggle="modal" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bx bxl-whatsapp bx-tada"></i></a>
+
+  <!-- Modal 2 -->
+  <div class="modal popup-box fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog popup-box-dialog modal-dialog-centered">
+      <div class="modal-content popup-box-content">
+        <div class="popup-card" style="width:100%">
+          <button type="button" class="btn popup2-btn ms-auto" data-bs-dismiss="modal"><i
+              class="fa-solid fa-xmark"></i></button>
+          <img src="assets/img/shape/popup.jpg" class="card-img-top" alt=""
+            style="border-top-left-radius: 20px;border-top-right-radius: 20px;border:0px;">
+          <div class="card-body popup-card-body">
+
+          </div>
+          <form action="javascript:void" method="post" id="heroForm" enctype="text/plain" class="popup-form">
+            <div class="row gy-3 mb-3">
+              <div class="col-lg-6">
+                <label for="names" class="form-label">Full Name</label>
+                <input type="text" name="Name" class="form-control" id="names" pattern="[a-zA-Z\s]{3,100}"
+                  placeholder="Nama Lengkap*" required>
+              </div>
+              <div class="col-lg-6">
+                <label for="locations" class="form-label">Lokasi</label>
+                <input type="text" class="form-control" name="Location" id="locations" pattern="[a-zA-Z\s]{3,100}"
+                  placeholder="Kota*" required>
+              </div>
+              <div class="col-lg-6">
+                <label for="whatsapps" class="form-label">Whatsapp</label>
+                <input type="tel" class="form-control" name="Whatsapp" id="whatsapps" pattern="[0-9]{10,15}"
+                  placeholder="Whatsapp*" required="">
+              </div>
+              <div class="col-lg-6">
+                <label for="events" class="form-label">Needs</label>
+                <input type="text" name="Event" class="form-control" id="events" placeholder="Kebutuhan">
+              </div>
+              <select class="d-none" name="Timestamp">
+                <option id="timestamp"></option>
+              </select>
+            </div>
+            <button class="custom-btn2 send_contact" id="submits" onclick="HeroForm()">Send Whatsapp</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/headerfooter.js"></script>
+  <script src="assets/js/timestamp.js"></script>
+  <script src="assets/js/whatsapp.js"></script>
+  <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
