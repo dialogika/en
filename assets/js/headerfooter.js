@@ -208,11 +208,12 @@ class Footer extends HTMLElement {
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3><img src="../assets/img/white-logo.webp" class="footer-logo" alt="Kelas Public Speaking Jogja" /></h3>
             <p>
-              Wadah pengembangan diri membangun aura positif sekaligus meningkatkan kualitas skill, karir hingga level
-              kehidupan Anda.
+              Our self-development platform helps you build a positive aura and improve the quality of your 
+              skills, career and general quality of life.
             </p><br>
-            <p>Kami memberikan pelatihan Kelas Public Speaking karena dengan menguasai Public Speaking, mental,
-              perilaku, penampilan hingga sikap Anda terbentuk.</p><br>
+            <p>We provide Public Speaking training because by mastering Public Speaking, your psyche, 
+            behavior, appearance, and overall attitude, will improve, and we want to see rise the best 
+            version of you!</p><br>
             <h4 class="d-flex justify-content-between">Contact Us<i class='bx bx-chevron-down d-md-none'></i></h4>
             <div class="social-link d-flex mt-3">
               <a href="https://link.dialogika.co/wasap-2597-dialogika-co"
@@ -221,7 +222,7 @@ class Footer extends HTMLElement {
                   class="bi bi-envelope-at-fill"></i></a>
             </div>
             <hr />
-            <p>Punya pertanyaan mengenai Dialogika?</p>
+            <p>Have questions about Dialogika?</p>
             <br>
             <p>
               <strong>Phone:</strong> +62 851-6299-2597<br>
@@ -348,7 +349,7 @@ class Footer extends HTMLElement {
                   <a href="../about/">About Us</a>
                 </li>
                 <li><i class="bx bx-chevron-right"></i>
-                  <a href="../about/faq.html">Frequent Asked Question</a>
+                  <a href="../about/faq.html">Frequently Asked Question</a>
                 </li>
                 <li><i class="bx bx-chevron-right"></i>
                   <a href="../about/help.html">Help Center</a>
@@ -404,9 +405,9 @@ class Footer extends HTMLElement {
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4 class="d-flex justify-content-between">Join Whatsapp Group Community<i
                 class='bx bx-chevron-down d-md-none'></i></h4>
-            <p>Secara Berkala Kami Akan Bagi-Bagi Tips & Trik Gratis, Dan Info Promo Lainnya</p>
+            <p>Periodically we will share free tips & tricks, and other promo info.</p>
             <form action="javascript:void" role="form" id="subcriptions" method="post">
-              <input type="tel" name="Surel" placeholder="Nomor Whatsapp"><input type="submit" value="Connect Now" onclick="Subcription()">
+              <input type="tel" name="Surel" placeholder="Whatsapp Number"><input type="submit" value="Connect Now" onclick="Subcription()">
             </form>
             <br><br>
             <h4 class="d-flex justify-content-between">Payment Method<i class='bx bx-chevron-down d-md-none'></i></h4>
