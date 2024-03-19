@@ -70,7 +70,7 @@ class Header extends HTMLElement {
               </li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="../corporate/">Corporate</a></li>
+          <li><a class="nav-link scrollto" href="../en/corporate/index.html">Corporate</a></li>
           <li><a class="nav-link scrollto" href="../event/">Event</a></li>
           <li><a class="nav-link scrollto" href="../service/">Services</a></li>
           <li><a class="nav-link scrollto" href="../shop/">Shop</a></li>
