@@ -181,23 +181,14 @@
         <!-- End Hotjar -->
 
         <script>
-          function redirectBasedOnLocation() {
-          fetch('https://freegeoip.app/json/')
-        .then(response => response.json())
-        .then(data => {
-            var countryCode = data.country_code; // Mendapatkan kode negara dari respons FreeGeoIP.app
-            var targetCountryCode = 'US'; // Kode negara untuk Indonesia
+          // Mendeteksi preferensi bahasa dari header Accept-Language
+          var preferredLanguage = navigator.language || navigator.userLanguage;
 
-            if (countryCode !== targetCountryCode) {
-                // Redirect ke versi berbahasa Inggris dari landing page
-                window.location.href = 'https://www.dialogika.co/en'; // Ganti URL dengan versi berbahasa Inggris Anda
-            }
-        })
-        .catch(error => {
-            console.error('Error:', error);
-        });
-}
-
+          // Jika preferensi bahasa adalah bahasa Inggris
+          if (preferredLanguage.startsWith("en")) {
+          // Redirect ke landing page berbahasa Inggris
+          window.location.href = "https://www.example.com/english-landing-page";
+          }
         </script>
   <!--  ========================================================  -->
 </head>
